@@ -1,5 +1,4 @@
-```
-flowchart TD
+```flowchart TD
     A[Generate New Geometry Parameters<br/>(gpOpt_TBL.nextGPsample())]
     B[Update Geometry Configuration<br/>(main_pre.write_yTopParams())]
     C[Run CFD Simulation<br/>(blockMesh, decomposePar, bash OFrun.sh)]
