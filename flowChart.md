@@ -1,4 +1,5 @@
-```flowchart TD
+```mermaid
+flowchart TD
     A[Generate New Geometry Parameters<br/>(gpOpt_TBL.nextGPsample())]
     B[Update Geometry Configuration<br/>(main_pre.write_yTopParams())]
     C[Run CFD Simulation<br/>(blockMesh, decomposePar, bash OFrun.sh)]
@@ -10,4 +11,12 @@
     B --> C
     C --> D
     D --> E
-    E --> F`
+    E --> F
+
+### Explanation
+
+- The file begins with three backticks followed by the word `mermaid` (i.e., ```mermaid) on a line by itself.
+- After your Mermaid code, close the block with three backticks on a separate line.
+- Save this as a `.md` file (for example, `flowchart.md`), and if your GitHub repository supports Mermaid (or if you use an online Mermaid editor), it will render the flowchart accordingly.
+
+You can now commit this file to GitHub, and if Mermaid is supported, the flowchart will display correctly.
