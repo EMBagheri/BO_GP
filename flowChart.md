@@ -13,10 +13,3 @@ flowchart TD
     D --> E
     E --> F
 
-### Explanation
-
-- The file begins with three backticks followed by the word `mermaid` (i.e., ```mermaid) on a line by itself.
-- After your Mermaid code, close the block with three backticks on a separate line.
-- Save this as a `.md` file (for example, `flowchart.md`), and if your GitHub repository supports Mermaid (or if you use an online Mermaid editor), it will render the flowchart accordingly.
-
-You can now commit this file to GitHub, and if Mermaid is supported, the flowchart will display correctly.
