@@ -26,7 +26,7 @@ flowchart TD
 
     subgraph PostProcessing
       D1["OFpost/main_post.py: Post-process simulation results"]
-      D2["Compute boundary layer parameters\n(β, Reₜ, δ*, etc.) & objective"]
+      D2["Compute boundary layer parameters\\n(β, Reₜ, δ*, etc.) & objective"]
       D3["Save figures (figs/) and data (data/)"]
       C2 --> D1
       D1 --> D2
